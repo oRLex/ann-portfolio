@@ -1,0 +1,35 @@
+{
+  "name": "ann-portfolio",
+  "version": "1.0.0",
+  "description": "My first portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oRLex/ann-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "simple",
+    "website"
+  ],
+  "author": "Anna Ivlieva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oRLex/ann-portfolio/issues"
+  },
+  "homepage": "https://github.com/oRLex/ann-portfolio#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+// Копируем бустрап первым
+@import "bootstrap";
+
+// Копируем все компоненты в файл _core.scss
+@import "variables";
+@import "helpers";
+@import "typography";
+@import "layout";
+@import "buttons";

@@ -1,0 +1,69 @@
+%btn{
+    border-radius: 2.8rem;
+    background-color: #ffffff;
+    padding: 2rem 5rem;
+    width: auto;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.btn-sm{
+    @extend %btn;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    color: #3695ff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
+    transition: 0.2s;
+    border: 0.1rem solid #ffffff;
+    &:hover, &:active, &:focus{
+        border: 0.1rem solid #3695ff;
+        background-color: transparent;
+        color: #ffffff;
+    }
+    @include media-breakpoint-between(xs,sm) { width: 100%;}
+}
+.btn-md{
+    @extend %btn;
+    padding: 1rem 3rem;
+    background-color: #ffffff;
+
+    color: #3695ff;
+    // font-family: "Century Gothic";
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
+    transition: 0.2s;
+    border: 0.1rem solid #ffffff;
+    &:hover, &:active, &:focus{
+        border: 0.1rem solid #3695ff;
+        background-color: transparent;
+        color: #ffffff
+    }
+    @include media-breakpoint-down(sm) { display: none;}
+}
+.btn-lg{
+    @extend %btn;
+    padding: 1rem 3rem;
+    background-color: #ffffff;
+    padding: 1.5rem 6rem;
+    color: #3695ff;
+    // font-family: "Century Gothic";
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
+    transition: 0.2s;
+    border: 0.1rem solid #ffffff;
+    &:hover, &:active, &:focus{
+        border: 0.1rem solid #3695ff;
+        background-color: transparent;
+        color: #ffffff
+    }
+    @include media-breakpoint-down(xs) { width: 100%;}
+}

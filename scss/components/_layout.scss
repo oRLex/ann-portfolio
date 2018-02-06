@@ -1,0 +1,22 @@
+@include media-breakpoint-down(xs) {  } 
+@include media-breakpoint-down(sm) {  }
+@include media-breakpoint-down(md) {  }
+@include media-breakpoint-down(lg) {  }
+@include media-breakpoint-down(xl) {  }
+@include media-breakpoint-between(md, lg) {  }
+html{
+    font-size: 10px;
+}
+
+section{
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include media-breakpoint-between(xs,sm) { 
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
